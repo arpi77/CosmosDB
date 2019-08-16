@@ -12,10 +12,10 @@ namespace CosmosDB
 {
     class Program
     {
-        private static string endpointUrl = "https://cosmos-test-dx.documents.azure.com:443/";
+        private static string endpointUrl = "";
 
         private static string authorizationKey =
-            "m1tZOlNMlXdlXqFuUkZPIJJXvsqrrgGJPnF1odhoQ9lT1GTttkjD70lqcvgUtBedZkzYRimriEh2A3MYDAivZQ==";
+            "";
 
         private static DocumentClient client;
 
